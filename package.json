@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby clean && gatsby build",
     "start": "gatsby develop"
   },
   "repository": {
@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@component-controls/gatsby-theme-stories": "^1.19.5",
-    "babel-loader": "^8.0.6",
     "gatsby": "^2.23.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
