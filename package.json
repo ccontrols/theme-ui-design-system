@@ -1,0 +1,22 @@
+{
+  "name": "theme-ui-design-system",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atanasster/theme-ui-design-system.git"
+  },
+  "dependencies": {
+    "@component-controls/gatsby-theme-stories": "^1.19.5",
+    "gatsby": "^2.23.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "theme-ui": "next"
+  }
+}
