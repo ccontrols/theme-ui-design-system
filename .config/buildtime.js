@@ -5,6 +5,11 @@ module.exports = {
     '../src/docs/theme-ui/components/*.@(mdx|tsx)',
     '../src/docs/component-controls/*.@(mdx|tsx)',
   ],
+  pages: {
+    story: {
+      tabs: [{ route: 'page' }, { route: 'test' }, { route: 'themes' }],
+    },
+  },
   instrument: {
     components: {
       package: {
