@@ -12,7 +12,6 @@ import {
 import * as themes from '@theme-ui/presets';
 
 export const ThemesPage = () => {
-  console.log(themes);
   return (
     <>
       <Description />
