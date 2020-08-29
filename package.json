@@ -28,6 +28,7 @@
     "@component-controls/gatsby-theme-stories": "^1.24.1",
     "@component-controls/nextjs-plugin": "^1.23.0",
     "@component-controls/viewport-plugin": "^1.24.1",
+    "@theme-ui/presets": "0.4.0-rc.1",
     "babel-loader": "^8.0.6",
     "gatsby": "^2.23.11",
     "emotion": "^10.0.27",
@@ -35,6 +36,6 @@
     "next": "^9.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "@theme-ui/presets": "0.4.0-rc.1"
+    "webpack-bundle-analyzer": "^3.8.0"
   }
 }

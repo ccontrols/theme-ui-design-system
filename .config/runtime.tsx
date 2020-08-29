@@ -21,7 +21,7 @@ const config: RunOnlyConfiguration =  {
         { title: 'Themes', render: () => <ThemesPage /> },
       ],
     },
-  }  
+  }
 };
 
 export default config;

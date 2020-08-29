@@ -1,4 +1,5 @@
 const path = require('path');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   stories: [
@@ -50,5 +51,14 @@ module.exports = {
         }
       },
     },
+  },
+  webpack: (config = {}, options = {}) => {
+    return {
+      ...config,
+      plugins: [
+        ...config.plugins,
+        // new BundleAnalyzerPlugin()
+      ]
+    };
   }
 };

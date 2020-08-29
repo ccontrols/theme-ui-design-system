@@ -1,4 +1,5 @@
-import React from 'react';
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
 import { Alert, Close, Flex, Text } from 'theme-ui';
 
 export default {
@@ -15,7 +16,10 @@ export const overview = () => (
         width: '100%',
       }}
     >
-      <Text>some alert text</Text>
+      <Text sx={{
+        //safari fix:
+        WebkitTextFillColor: 'white',
+      }}>some alert text</Text>
       <Close />
     </Flex>
   </Alert>
