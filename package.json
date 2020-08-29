@@ -13,11 +13,11 @@
     "url": "https://github.com/atanasster/theme-ui-design-system.git"
   },
   "dependencies": {
-    "@component-controls/axe-plugin": "^1.24.0",
-    "@component-controls/blocks": "^1.24.0",
+    "@component-controls/axe-plugin": "^1.24.1",
+    "@component-controls/blocks": "^1.24.1",
     "@component-controls/core": "^1.22.0",
-    "@component-controls/gatsby-theme-stories": "^1.24.0",
-    "@component-controls/viewport-plugin": "^1.24.0",
+    "@component-controls/gatsby-theme-stories": "^1.24.1",
+    "@component-controls/viewport-plugin": "^1.24.1",
     "babel-loader": "^8.0.6",
     "gatsby": "^2.23.11",
     "react": "^16.13.1",
