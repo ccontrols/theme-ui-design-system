@@ -3,6 +3,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = {
   stories: [
+    '../src/docs/docs/*.@(mdx|tsx)',
     '../src/docs/design-tokens/*.@(mdx|tsx)',
     '../src/docs/theme-ui/components/*.@(mdx|tsx)',
     '../src/docs/component-controls/*.@(mdx|tsx)',
