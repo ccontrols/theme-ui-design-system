@@ -3,7 +3,7 @@ title: Design tokens/Colors
 ---
 import { TableColorPalette, ColorAALegend } from '@component-controls/design-tokens';
 import { BlockContainer } from '@component-controls/components';
-import * as themes from '@theme-ui/presets';
+import { useThemes } from '../../components/useThemes';
 
 export const ThemesPalettes = () => {
   const getThemePalette = (theme) => {
@@ -23,15 +23,20 @@ export const ThemesPalettes = () => {
     }, {});
     return palette;
   }
+  const themes= useThemes();
   return (
     <>
-      {Object.keys(themes).filter(name => name !== 'default').sort().map(themeName => {
-        const name =  themes[themeName].colors ? themeName : `${themeName} (base)`;
-        const theme = themes[themeName].colors ? themes[themeName] : themes.base;
+      {themes.map(({ name, theme }) => {
+        const themeName =  theme.colors ? name : `${name} (base)`;
+        const themeObject = theme.colors ? theme : themes.find(({ name }) => name === 'base');
         return (
-          <BlockContainer key={`color_${themeName}`} title={name} id={name}>
+          <BlockContainer key={`color_${name}`} title={themeName} id={themeName} sxStyle={{ mt: 0 }}>
             <TableColorPalette
-              palette={getThemePalette(theme)} 
+              sx={{
+                borderLeft: 'none',
+                borderRight: 'none',
+              }}
+              palette={getThemePalette(themeObject)} 
             />
           </BlockContainer>
           );
