@@ -15,10 +15,10 @@ export const ThemesPage = () => {
   return (
     <>
       <Description />
-      {Object.keys(themes).map(themeName => (
+      {Object.keys(themes).filter(name => name !== 'default').sort().map(themeName => (
         <HoverBox key={themeName} label={themeName}>
         <ThemeProvider  theme={themes[themeName]}>
-          <Story id="."  sxStyle={{ mb: 0 }}/>
+            <Story id="."  sxStyle={{ mb: 0, ...themes[themeName]?.styles?.root }}/>
         </ThemeProvider>
         </HoverBox>
       ))}

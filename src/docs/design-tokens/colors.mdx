@@ -1,0 +1,52 @@
+---
+title: Design tokens/Colors
+---
+import { TableColorPalette, ColorAALegend } from '@component-controls/design-tokens';
+import { BlockContainer } from '@component-controls/components';
+import * as themes from '@theme-ui/presets';
+
+export const ThemesPalettes = () => {
+  const getThemePalette = (theme) => {
+    const colors = theme.colors;
+    const darkColors = theme.colors?.modes?.dark || {};
+    
+    const palette = Object.keys(colors)
+    .filter(key => typeof colors[key] !== 'object' || Array.isArray(colors[key]))
+    .sort()
+    .reduce((acc, key) => {
+      if (Array.isArray(colors[key])) {
+        return  { ...acc, ...(colors[key].reduce((acc1, color, index) => {
+          return color ? { ...acc1, [`${key}-${index}`]: color } : acc1;
+        }, {})) };
+      }
+      return  {...acc, [key]: { value: colors[key], dark:  darkColors?.[key]} };
+    }, {});
+    return palette;
+  }
+  return (
+    <>
+      {Object.keys(themes).filter(name => name !== 'default').sort().map(themeName => {
+        const name =  themes[themeName].colors ? themeName : `${themeName} (base)`;
+        const theme = themes[themeName].colors ? themes[themeName] : themes.base;
+        return (
+          <BlockContainer key={`color_${themeName}`} title={name} id={name}>
+            <TableColorPalette
+              palette={getThemePalette(theme)} 
+            />
+          </BlockContainer>
+          );
+        }
+      )}
+    </>
+  );
+}
+
+# Colors
+
+You can review the `theme-ui` themes colors and their [WCAG AA](https://www.w3.org/TR/WCAG/) color contrast tests. For an explanation of the `AA` grades, you can jump to the [Legend](#legend).
+
+<ThemesPalettes />
+
+# Legend
+
+<ColorAALegend />
