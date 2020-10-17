@@ -5,7 +5,6 @@ import { ThemesPage } from './ThemesPage';
 
 const config: RunOnlyConfiguration =  {
   siteTitle: `theme-ui components`,
-  siteUrl: `https://theme-ui.com`,
   siteDescription: `Collection of theme-ui and external components.`,
   author: 'component-controls',
   components: {

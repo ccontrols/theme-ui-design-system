@@ -8,6 +8,7 @@ module.exports = {
     '../src/docs/theme-ui/components/*.@(mdx|tsx)',
     '../src/docs/component-controls/*.@(mdx|tsx)',
   ],
+  siteUrl: `https://theme-ui-design-system.netlify.app`,
   pages: {
     story: {
       tabs: [{ route: 'page' }, { route: 'test' }, { route: 'themes' }],
