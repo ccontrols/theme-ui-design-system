@@ -4,8 +4,8 @@ import { TestingPage } from './TestingPage';
 import { ThemesPage } from './ThemesPage';
 
 const config: RunOnlyConfiguration =  {
-  siteTitle: `theme-ui components`,
-  siteDescription: `Collection of theme-ui and external components.`,
+  title: `theme-ui components`,
+  description: `Collection of theme-ui and external components.`,
   author: 'component-controls',
   components: {
     playground: {
