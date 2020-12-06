@@ -16,7 +16,7 @@ export const ThemesPage = () => {
       {themes.map(({ name, theme }) => (
         <BlockContainer key={`themed_component_${name}`} title={name} id={name} sxStyle={{ mt: 0 }}>
           <ThemeProvider  theme={theme}>
-              <Story id="."  sxStyle={{ mb: 0, ...theme?.styles?.root }}/>
+            <Story id="."sx={{ mb: 0, ...theme?.styles?.root }}/>
           </ThemeProvider>
         </BlockContainer>
       ))}
