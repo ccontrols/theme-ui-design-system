@@ -16,7 +16,7 @@ const config: RunOnlyConfiguration =  {
   },
   links: [...defaultLinks, {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:400,700,900|Roboto:400,600|Architects+Daughter:400,600|Segoe+UI:400,700|Helvetica+Neue:400,700|Arial:400,700|Noto+Sans:400,700|Avenir+Next:400,700",
+    href: "https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:400,700,900|Roboto:400,600|Architects+Daughter",
   }],
   pages: {
     story: {
