@@ -4,7 +4,7 @@ import { Flex, NavLink } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/NavLink',
+  title: 'theme-ui/NavLink',
   component: NavLink,
 } as Document;
 

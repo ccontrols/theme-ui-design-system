@@ -3,7 +3,7 @@ import { Heading, HeadingProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Heading',
+  title: 'theme-ui/Heading',
   component: Heading,
 } as Document;
 

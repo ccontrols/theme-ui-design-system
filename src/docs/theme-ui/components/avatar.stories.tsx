@@ -4,7 +4,7 @@ import { Avatar, AvatarProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Avatar',
+  title: 'theme-ui/Avatar',
   component: Avatar,
   description:
     'Avatar style variants can be defined in the `theme.images` object and uses `theme.images.avatar` by default.',

@@ -3,10 +3,10 @@ import { Field, FieldProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Field',
+  title: 'theme-ui/Field',
   component: Field,
   description:
-    'The `Field` component uses the same variants as the other [form components](/components/forms) that it is composed of.',
+    'The `Field` component uses the same variants as the other [form components](/forms) that it is composed of.',
 } as Document;
 
 export const overview: Example<FieldProps<'input'>> = ({ label, name, defaultValue }) => (

@@ -3,7 +3,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Tag, TagProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Tag',
+  title: 'component-controls/Tag',
   component: Tag,
 } as Document;
 

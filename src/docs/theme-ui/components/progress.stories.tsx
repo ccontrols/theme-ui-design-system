@@ -4,7 +4,7 @@ import { Progress, ProgressProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Progress',
+  title: 'theme-ui/Progress',
   component: Progress,
   description: 'Progress variants can be defined anywhere in the `theme` object.',
 } as Document;

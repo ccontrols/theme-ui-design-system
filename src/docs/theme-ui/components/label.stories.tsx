@@ -3,7 +3,7 @@ import { Label } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Label',
+  title: 'theme-ui/Label',
   component: Label,
 } as Document;
 

@@ -3,7 +3,7 @@ import { Message } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Message',
+  title: 'theme-ui/Message',
   component: Message,
 } as Document; 
 

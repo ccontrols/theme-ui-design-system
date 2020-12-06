@@ -4,7 +4,7 @@ import { Container, ThemeUICSSProperties } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Container',
+  title: 'theme-ui/Container',
   component: Container,
 } as Document;
 

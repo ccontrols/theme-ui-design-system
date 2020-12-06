@@ -3,7 +3,7 @@ import { Example } from '@component-controls/core';
 import { Tabs, Tab, TabList, TabPanel } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Tabs',
+  title: 'component-controls/Tabs',
   component: Tabs,
   subcomponents: {
     Tab,

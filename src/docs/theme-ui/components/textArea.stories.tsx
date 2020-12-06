@@ -3,7 +3,7 @@ import { Textarea, TextareaProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Textarea',
+  title: 'theme-ui/Textarea',
   component: Textarea,
 } as Document;
 

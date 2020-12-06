@@ -4,7 +4,7 @@ import { Document, Example } from '@component-controls/core';
 import { ExternalLink, ActionContainer } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/ActionContainer',
+  title: 'component-controls/ActionContainer',
   component: ActionContainer,
 } as Document;
 

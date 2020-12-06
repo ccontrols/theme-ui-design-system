@@ -4,7 +4,7 @@ import { Document, Example } from '@component-controls/core';
 import { HoverBox } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/HoverBox',
+  title: 'component-controls/HoverBox',
   component: HoverBox,
 } as Document;
 

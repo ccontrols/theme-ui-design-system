@@ -3,7 +3,7 @@ import { Link } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Link',
+  title: 'theme-ui/Link',
   component: Link,
 } as Document;
 

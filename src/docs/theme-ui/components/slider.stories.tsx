@@ -4,7 +4,7 @@ import { Slider, SliderProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Slider',
+  title: 'theme-ui/Slider',
   component: Slider,
 } as Document;
 

@@ -4,7 +4,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { BlockContainer, BlockContainerProps, ThemeProvider } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/BlockContainer',
+  title: 'component-controls/BlockContainer',
   component: BlockContainer,
 } as Document;
 

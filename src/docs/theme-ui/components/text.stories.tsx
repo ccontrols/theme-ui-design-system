@@ -3,7 +3,7 @@ import { Text, ThemeUICSSProperties } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Text',
+  title: 'theme-ui/Text',
   component: Text,
   description: 'The Text component uses `theme.text.default` as its default variant style.'
 } as Document;

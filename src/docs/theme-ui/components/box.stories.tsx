@@ -4,7 +4,7 @@ import { Box, BoxProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Box',
+  title: 'theme-ui/Box',
   component: Box,
   description:
     'Use the `Box` component as a layout primitive to add margin, padding, and colors to content.',

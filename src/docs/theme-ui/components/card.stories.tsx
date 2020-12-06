@@ -4,7 +4,7 @@ import { Card, Image, Text } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Card',
+  title: 'theme-ui/Card',
   component: Card,
   description:
     'Card style variants can be defined in the theme.cards object. By default the Card component uses the theme.cards.primary variant.',

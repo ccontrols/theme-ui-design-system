@@ -5,7 +5,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Sidebar, SidebarContext, SidebarContextProvider, ThemeProvider } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Sidebar',
+  title: 'component-controls/Sidebar',
   component: Sidebar,
 } as Document;
 

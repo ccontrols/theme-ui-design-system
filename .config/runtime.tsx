@@ -1,5 +1,6 @@
 import React from 'react';
 import { RunOnlyConfiguration, defaultRunConfig } from "@component-controls/core";
+import { Link } from "@component-controls/components";
 import { TestingPage } from './TestingPage';
 import { ThemesPage } from './ThemesPage';
 
@@ -20,6 +21,17 @@ const config: RunOnlyConfiguration =  {
         { title: 'Themes', render: () => <ThemesPage /> },
       ],
     },
+  },
+  toolbar: {
+    right: [
+      {
+        node: (
+          <Link href="https://theme-ui.com">
+            Theme UI
+          </Link>
+        ),
+      }
+    ]
   }
 };
 

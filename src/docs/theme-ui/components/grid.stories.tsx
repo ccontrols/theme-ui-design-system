@@ -4,7 +4,7 @@ import { Grid, Box } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Grid',
+  title: 'theme-ui/Grid',
   component: Grid,
 } as Document;
 

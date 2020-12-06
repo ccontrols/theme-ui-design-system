@@ -3,7 +3,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Title, TitleProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Title',
+  title: 'component-controls/Title',
   component: Title,
 } as Document;
 

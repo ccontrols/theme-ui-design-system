@@ -4,7 +4,7 @@ import { Flex, Box, ThemeUICSSProperties } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Flex',
+  title: 'theme-ui/Flex',
   component: Flex,
   description:
     'The Flex component is identical to the Box component, but with display: flex set. If you need to alter the display property, use the Box component instead.',

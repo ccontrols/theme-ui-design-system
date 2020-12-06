@@ -3,7 +3,7 @@ import { Divider } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Divider',
+  title: 'theme-ui/Divider',
   component: Divider,
 } as Document;
 

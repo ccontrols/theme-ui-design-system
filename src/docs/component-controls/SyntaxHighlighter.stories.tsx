@@ -4,7 +4,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { SyntaxHighlighter, SyntaxHighlighterProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/SyntaxHighlighter',
+  title: 'component-controls/SyntaxHighlighter',
   component: SyntaxHighlighter,
 } as Document;
 

@@ -3,7 +3,7 @@ import { Document, Example } from '@component-controls/core';
 import { Markdown, ThemeProvider } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Markdown',
+  title: 'component-controls/Markdown',
   component: Markdown,
 } as Document; 
 

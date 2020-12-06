@@ -3,7 +3,7 @@ import { Document, Example, faker } from '@component-controls/core';
 import { SearchInput } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/SearchInput',
+  title: 'component-controls/SearchInput',
   component: SearchInput,
 } as Document;
 

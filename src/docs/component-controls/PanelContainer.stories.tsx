@@ -4,7 +4,7 @@ import { Document, Example } from '@component-controls/core';
 import { PanelContainer } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/PanelContainer',
+  title: 'component-controls/PanelContainer',
   component: PanelContainer,
 } as Document;
 

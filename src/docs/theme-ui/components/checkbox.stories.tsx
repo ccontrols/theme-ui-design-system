@@ -3,7 +3,7 @@ import { Checkbox, CheckboxProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Checkbox',
+  title: 'theme-ui/Checkbox',
   component: Checkbox,
   description:
     'Checkbox variants can be defined in `theme.forms` and the component uses the `theme.forms.checkbox` variant by default.',

@@ -3,7 +3,7 @@ import { IconButton } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/IconButton',
+  title: 'theme-ui/IconButton',
   component: IconButton,
 } as Document;
 

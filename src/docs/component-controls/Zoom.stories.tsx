@@ -4,7 +4,7 @@ import { Document, Example } from '@component-controls/core';
 import { Zoom, ActionContainer } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Zoom',
+  title: 'component-controls/Zoom',
   component: Zoom,
 } as Document;
 

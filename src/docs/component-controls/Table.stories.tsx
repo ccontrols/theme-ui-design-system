@@ -5,7 +5,7 @@ import { Table, ThemeProvider } from '@component-controls/components';
 
 
 export default {
-  title: 'Components/component-controls/Table',
+  title: 'component-controls/Table',
   component: Table,
 } as Document;
 

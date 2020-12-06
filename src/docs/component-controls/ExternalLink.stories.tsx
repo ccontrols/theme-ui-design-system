@@ -3,7 +3,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { ExternalLink, ExternalLinkProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/ExternalLink',
+  title: 'component-controls/ExternalLink',
   component: ExternalLink,
 } as Document;
 

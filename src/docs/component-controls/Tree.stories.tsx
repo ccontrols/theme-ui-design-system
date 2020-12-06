@@ -15,7 +15,7 @@ import { Document, Example } from '@component-controls/core';
 import { Tree } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Tree',
+  title: 'component-controls/Tree',
   component: Tree,
 } as Document;
 

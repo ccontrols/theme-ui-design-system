@@ -4,7 +4,7 @@ import { Image, ImageProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Image',
+  title: 'theme-ui/Image',
   component: Image,
 } as Document;
 

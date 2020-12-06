@@ -3,7 +3,7 @@ import { MenuButton, MenuButtonProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/MenuButton',
+  title: 'theme-ui/MenuButton',
   component: MenuButton,
 } as Document;
 

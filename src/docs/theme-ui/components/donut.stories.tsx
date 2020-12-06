@@ -4,7 +4,7 @@ import { Donut, DonutProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Donut',
+  title: 'theme-ui/Donut',
   component: Donut,
   description: 'Donut variants can be defined anywhere in the `theme` object.'
 } as Document;

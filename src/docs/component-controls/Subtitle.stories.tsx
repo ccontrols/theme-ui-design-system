@@ -3,7 +3,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Subtitle, SubtitleProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Subtitle',
+  title: 'component-controls/Subtitle',
   component: Subtitle,
 } as Document;
 

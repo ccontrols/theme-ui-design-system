@@ -3,7 +3,7 @@ import { Select } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Select',
+  title: 'theme-ui/Select',
   component: Select,
 } as Document;
 

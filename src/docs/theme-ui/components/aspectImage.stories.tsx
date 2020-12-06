@@ -4,7 +4,7 @@ import { Box, AspectImage, AspectImageProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/AspectImage',
+  title: 'theme-ui/AspectImage',
   component: AspectImage,
 } as Document;
 

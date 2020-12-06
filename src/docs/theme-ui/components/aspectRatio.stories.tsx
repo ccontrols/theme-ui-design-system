@@ -4,7 +4,7 @@ import { Box, AspectRatio, AspectRatioProps, Heading } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/AspectRatio',
+  title: 'theme-ui/AspectRatio',
   component: AspectRatio,
 } as Document;
 

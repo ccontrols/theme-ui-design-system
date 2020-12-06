@@ -5,7 +5,7 @@ import { Document, Example } from '@component-controls/core';
 import { Toggle } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Toggle',
+  title: 'component-controls/Toggle',
   component: Toggle,
 } as Document;
 

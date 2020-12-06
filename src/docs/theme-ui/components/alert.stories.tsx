@@ -4,7 +4,7 @@ import { Alert, Close, Flex, Text } from 'theme-ui';
 import { Document, Example } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Alert',
+  title: 'theme-ui/Alert',
   component: Alert,
 } as Document;
 

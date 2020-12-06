@@ -3,7 +3,7 @@ import { Document, Example } from '@component-controls/core';
 import { Pagination } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Pagination',
+  title: 'component-controls/Pagination',
   component: Pagination,
 } as Document;
 

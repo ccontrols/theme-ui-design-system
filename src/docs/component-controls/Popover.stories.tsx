@@ -4,7 +4,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Popover, PopoverProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Popover',
+  title: 'component-controls/Popover',
   component: Popover,
 } as Document;
 

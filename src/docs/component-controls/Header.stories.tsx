@@ -3,7 +3,7 @@ import { Document, Example } from '@component-controls/core';
 import { Header } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Header',
+  title: 'component-controls/Header',
   component: Header,
 } as Document;
 

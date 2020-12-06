@@ -13,7 +13,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Source, SourceProps, ActionItem } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Source',
+  title: 'component-controls/Source',
   component: Source,
 } as Document;
 

@@ -3,7 +3,7 @@ import { Document, Example } from '@component-controls/core';
 import { Value, ValueProps } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/Value',
+  title: 'component-controls/Value',
   component: Value,
 } as Document;
 

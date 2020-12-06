@@ -4,7 +4,7 @@ import { Spinner, SpinnerProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Spinner',
+  title: 'theme-ui/Spinner',
   component: Spinner,
   description: `A \`title\` attribute should be provided to the component for accessibility purposes.
   The element uses \`role='img'\` by default.

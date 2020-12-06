@@ -4,7 +4,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { TitledImage } from '@component-controls/components';
 
 export default {
-  title: 'Components/component-controls/TitledImage',
+  title: 'component-controls/TitledImage',
   component: TitledImage,
 } as Document;
 

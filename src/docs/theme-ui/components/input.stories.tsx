@@ -4,7 +4,7 @@ import { Input, InputProps } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
-  title: 'Components/theme-ui/Input',
+  title: 'theme-ui/Input',
   component: Input,
 } as Document;
 
