@@ -1,13 +1,13 @@
 import React from 'react';
-import { Embed } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Embed, EmbedProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Embed',
   component: Embed,
-};
+} as Document;
 
-export const overview = ({ src }) => (
+export const overview: Example<EmbedProps> = ({ src }) => (
   <Embed src={src} />
 );
 

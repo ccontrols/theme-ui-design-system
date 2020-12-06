@@ -1,15 +1,15 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Donut } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Donut, DonutProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Donut',
   component: Donut,
   description: 'Donut variants can be defined anywhere in the `theme` object.'
-};
+} as Document;
 
-export const overview = props => <Donut {...props} />;
+export const overview: Example<DonutProps> = props => <Donut {...props} />;
 
 overview.controls = {
   value: { type: ControlTypes.NUMBER, value: 0.5 },
@@ -20,4 +20,6 @@ overview.controls = {
   strokeWidth: { type: ControlTypes.NUMBER, value: 2 },
 };
 
-overview.smartControls = false;
+overview.smartControls = {
+  smart: false
+};

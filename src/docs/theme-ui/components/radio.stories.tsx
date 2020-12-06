@@ -1,13 +1,13 @@
 import React from 'react';
-import { Radio, Label } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Radio, RadioProps, Label } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Radio',
   component: Radio,
-};
+} as Document;
 
-export const overview = ({ checked }) => (
+export const overview: Example<RadioProps> = ({ checked }) => (
   <>
     <Label>
       <Radio

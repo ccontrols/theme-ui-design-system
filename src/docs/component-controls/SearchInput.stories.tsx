@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { faker } from '@component-controls/core';
+import { Document, Example, faker } from '@component-controls/core';
 import { SearchInput } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/SearchInput',
   component: SearchInput,
-};
+} as Document;
 
 interface FakeItem {
   id: number;
@@ -31,7 +31,7 @@ const useMockData = (): [FakeItems, (searchTerm: string) => void] => {
   return [items, setSearch];
 };
 
-export const overview = () => {
+export const overview: Example = () => {
   const [items, setSearch] = useMockData();
   return (
     <SearchInput<FakeItem>
@@ -44,7 +44,7 @@ export const overview = () => {
   );
 };
 
-export const defaultRender = () => {
+export const defaultRender: Example = () => {
   const [items, setSearch] = useMockData();
   return (
     <SearchInput
@@ -55,7 +55,7 @@ export const defaultRender = () => {
   );
 };
 
-export const placeholder = () => {
+export const placeholder: Example = () => {
   const [items, setSearch] = useMockData();
   return (
     <SearchInput

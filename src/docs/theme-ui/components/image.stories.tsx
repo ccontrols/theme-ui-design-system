@@ -1,18 +1,18 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Image } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Image, ImageProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Image',
   component: Image,
-};
+} as Document;
 
-export const overview = ({ src }) => <Image src={src} />;
+export const overview: Example<ImageProps> = ({ src }) => <Image src={src} />;
 
 overview.controls = {
   src: {
     type: ControlTypes.TEXT,
-    value: 'https://s3.amazonaws.com/uifaces/faces/twitter/surgeonist/128.jpg',
+    value: 'https://picsum.photos/200/300',
   },
 };

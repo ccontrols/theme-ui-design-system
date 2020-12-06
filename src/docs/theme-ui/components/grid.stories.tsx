@@ -1,14 +1,14 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Grid, Box } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Grid',
   component: Grid,
-};
+} as Document;
 
-export const width = ({ width1, width3 }) => (
+export const width: Example<{ width1: number, width3: number }> = ({ width1, width3 }) => (
   <Grid width={[ width1, null, width3 ]}>
     <Box sx={{ bg: 'primary', color: 'white' }}>Box</Box>
     <Box sx={{ bg: 'muted' }}>Box</Box>
@@ -24,7 +24,7 @@ width.controls = {
 };
 
 
-export const columns = ({ gap, col1, col3 }) => (
+export const columns: Example<{ gap: number, col1: number, col3: number }> = ({ gap, col1, col3 }) => (
   <Grid gap={gap} columns={[ col1, null, col3 ]}>
     <Box sx={{ bg: 'primary', color: 'white' }}>Box</Box>
     <Box sx={{ bg: 'muted' }}>Box</Box>
@@ -41,7 +41,7 @@ columns.controls = {
 };
 
 
-export const fractions = ({ gap, col1, fr1, fr2 }) => (
+export const fractions: Example<{ gap: number, col1: number, fr1: number, fr2: number }> = ({ gap, col1, fr1, fr2 }) => (
   <Grid gap={gap} columns={[col1, `${fr1}fr ${fr2 }fr`]}>
     <Box sx={{ bg: 'primary', color: 'white' }}>Box</Box>
     <Box sx={{ bg: 'muted' }}>Box</Box>

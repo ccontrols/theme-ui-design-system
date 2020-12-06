@@ -1,23 +1,23 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Avatar, AvatarProps } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Avatar',
   component: Avatar,
   description:
     'Avatar style variants can be defined in the `theme.images` object and uses `theme.images.avatar` by default.',
-};
+} as Document;
 
-export const overview = ({ src, size }: AvatarProps) => (
+export const overview: Example<AvatarProps> = ({ src, size }) => (
   <Avatar src={src} size={size} />
 );
 
 overview.controls = {
   src: {
     type: ControlTypes.TEXT,
-    value: 'https://s3.amazonaws.com/uifaces/faces/twitter/tumski/128.jpg',
+    value: 'https://picsum.photos/id/1084/128/128',
   },
   size: { type: ControlTypes.NUMBER, value: 120, step: 10 },
 };

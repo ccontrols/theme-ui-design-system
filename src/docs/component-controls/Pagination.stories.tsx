@@ -1,12 +1,13 @@
 import React from 'react';
+import { Document, Example } from '@component-controls/core';
 import { Pagination } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/Pagination',
   component: Pagination,
-};
+} as Document;
 
-export const overview = () => (
+export const overview: Example = () => (
   <Pagination
     prev={{
       link: '/',
@@ -19,7 +20,7 @@ export const overview = () => (
   />
 );
 
-export const onlyPrev = () => (
+export const onlyPrev: Example = () => (
   <Pagination
     prev={{
       link: '/',
@@ -28,7 +29,7 @@ export const onlyPrev = () => (
   />
 );
 
-export const onlyNext = () => (
+export const onlyNext: Example = () => (
   <Pagination
     next={{
       link: '/',

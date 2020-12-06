@@ -9,13 +9,13 @@ import nightOwlLight from 'prism-react-renderer/themes/nightOwlLight';
 import oceanicNext from 'prism-react-renderer/themes/oceanicNext';
 import palenight from 'prism-react-renderer/themes/palenight';
 import shadesOfPurple from 'prism-react-renderer/themes/shadesOfPurple';
-
+import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Source, SourceProps, ActionItem } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/Source',
   component: Source,
-};
+} as Document;
 
 const source = `export const sample = () => {
   const [state, setState] = React.useState(false);
@@ -27,7 +27,7 @@ const source = `export const sample = () => {
     />
   );
 };`;
-export const overview = ({ language, children, dark }: SourceProps) => {
+export const overview: Example<SourceProps> = ({ language, children, dark }) => {
   return (
     <Source language={language} dark={dark}>
       {children}
@@ -70,20 +70,18 @@ const languages: string[] = [
   'yaml',
 ];
 
-overview.story = {
-  controls: {
-    language: { type: 'options', options: languages, value: 'jsx' },
-    dark: { type: 'boolean' },
-    children: {
-      type: 'text',
-      rows: 10,
-      value: source,
-      data: null,
-    },
+overview.controls = {
+  language: { type: ControlTypes.OPTIONS, options: languages, value: 'jsx' },
+  dark: false,
+  children: {
+    type: ControlTypes.TEXT,
+    rows: 10,
+    value: source,
+    data: null,
   },
 };
 
-export const theme = () => <Source theme={shadesOfPurple as SourceProps['theme']}>{source}</Source>;
+export const theme: Example = () => <Source theme={shadesOfPurple as SourceProps['theme']}>{source}</Source>;
 
 const themes: {
   [key: string]: PrismTheme;

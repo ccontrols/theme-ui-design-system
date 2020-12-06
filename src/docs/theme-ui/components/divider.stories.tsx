@@ -1,9 +1,10 @@
 import React from 'react';
 import { Divider } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Divider',
   component: Divider,
-};
+} as Document;
 
-export const overview = () => <Divider />;
+export const overview: Example = () => <Divider />;

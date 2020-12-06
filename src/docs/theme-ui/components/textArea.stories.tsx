@@ -1,13 +1,13 @@
 import React from 'react';
-import { Textarea } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Textarea, TextareaProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Textarea',
   component: Textarea,
-};
+} as Document;
 
-export const overview = ({ rows }) => (
+export const overview: Example<TextareaProps> = ({ rows }) => (
   <Textarea rows={rows} defaultValue={`Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Fusce in metus velit.
 In purus neque, mattis non vehicula a, facilisis a leo.

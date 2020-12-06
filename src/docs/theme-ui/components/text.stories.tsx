@@ -1,14 +1,14 @@
 import React from 'react';
-import { Text } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Text, ThemeUICSSProperties } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Text',
   component: Text,
   description: 'The Text component uses `theme.text.default` as its default variant style.'
-};
+} as Document;
 
-export const overview = ({ fontWeight, fontSize }) => (
+export const overview: Example<ThemeUICSSProperties> = ({ fontWeight, fontSize }) => (
   <Text
     sx={{
       fontSize,

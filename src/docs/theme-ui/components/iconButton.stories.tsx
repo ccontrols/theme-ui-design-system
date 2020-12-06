@@ -1,12 +1,13 @@
 import React from 'react';
 import { IconButton } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/IconButton',
   component: IconButton,
-};
+} as Document;
 
-export const overview = () => (
+export const overview: Example = () => (
   <IconButton aria-label='Toggle dark mode'>
     <svg
       xmlns='http://www.w3.org/2000/svg'

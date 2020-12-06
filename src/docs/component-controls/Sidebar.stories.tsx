@@ -1,14 +1,15 @@
 import React from 'react';
 import { ProjectIcon } from '@primer/octicons-react';
 import { Flex } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Sidebar, SidebarContext, SidebarContextProvider, ThemeProvider } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/Sidebar',
   component: Sidebar,
-};
+} as Document;
 
-export const overview = ({ collapsible }: { collapsible: boolean }) => (
+export const overview: Example<{ collapsible: boolean }> = ({ collapsible }) => (
   <ThemeProvider>
     <SidebarContextProvider collapsible={collapsible}>
       <SidebarContext.Consumer>
@@ -29,13 +30,11 @@ export const overview = ({ collapsible }: { collapsible: boolean }) => (
   </ThemeProvider>
 );
 
-overview.story = {
-  controls: {
-    collapsible: { type: 'boolean', value: true },
-  },
+overview.controls = {
+  collapsible: { type: ControlTypes.BOOLEAN, value: true },
 };
 
-export const title = () => (
+export const title: Example = () => (
   <ThemeProvider>
     <SidebarContextProvider>
       <div style={{ border: '1px solid black' }}>
@@ -59,7 +58,7 @@ export const title = () => (
   </ThemeProvider>
 );
 
-export const icon = () => (
+export const icon: Example = () => (
   <ThemeProvider>
     <SidebarContextProvider>
       <div style={{ border: '1px solid black' }}>
@@ -82,7 +81,7 @@ export const icon = () => (
   </ThemeProvider>
 );
 
-export const buttonProps = () => (
+export const buttonProps: Example = () => (
   <ThemeProvider>
     <SidebarContextProvider>
       <div style={{ border: '1px solid black' }}>

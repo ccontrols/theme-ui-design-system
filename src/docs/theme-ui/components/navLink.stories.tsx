@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
+import { jsx, ThemeUICSSProperties } from 'theme-ui';
 import { Flex, NavLink } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/NavLink',
   component: NavLink,
-};
+} as Document;
 
-export const overview = ({ p }) => (
+export const overview: Example<ThemeUICSSProperties> = ({ p }) => (
   <Flex>
     <NavLink href='#!' sx={{ p }}>
       Home

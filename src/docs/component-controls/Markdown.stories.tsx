@@ -1,12 +1,13 @@
 import React from 'react';
+import { Document, Example } from '@component-controls/core';
 import { Markdown, ThemeProvider } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/Markdown',
   component: Markdown,
-};
+} as Document; 
 
-export const overview = () => (
+export const overview: Example = () => (
   <ThemeProvider>
     <Markdown>{`
 # Header H1
@@ -22,7 +23,7 @@ some text
   </ThemeProvider>
 );
 
-export const image = () => (
+export const image: Example = () => (
   <ThemeProvider>
     <Markdown>
       ![integrated in

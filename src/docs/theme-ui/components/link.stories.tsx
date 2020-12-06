@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Link',
   component: Link,
-};
+} as Document;
 
-export const overview = () => <Link href='#!'>theme-ui link</Link>;
+export const overview: Example = () => <Link href='#!'>theme-ui link</Link>;

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Field } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Field, FieldProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Field',
   component: Field,
   description:
     'The `Field` component uses the same variants as the other [form components](/components/forms) that it is composed of.',
-};
+} as Document;
 
-export const overview = ({ label, name, defaultValue }) => (
+export const overview: Example<FieldProps<'input'>> = ({ label, name, defaultValue }) => (
   <Field label={label} name={name} defaultValue={defaultValue} />
 );
 

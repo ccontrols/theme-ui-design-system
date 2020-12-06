@@ -1,13 +1,13 @@
 import React from 'react';
-import { MenuButton } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { MenuButton, MenuButtonProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/MenuButton',
   component: MenuButton,
-};
+} as Document;
 
-export const overview = ({ variant }) => (
+export const overview: Example<MenuButtonProps> = ({ variant }) => (
   <MenuButton variant={variant} />
 );
 

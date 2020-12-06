@@ -1,11 +1,13 @@
 import React from 'react';
 import { Donut } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 import { PanelContainer } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/PanelContainer',
   component: PanelContainer,
-};
+} as Document;
+
 const actions = [
   {
     node: 'panel-1',
@@ -35,7 +37,7 @@ const actions = [
     'aria-label': 'some action without panel',
   },
 ];
-export const overview = () => {
+export const overview: Example = () => {
   return (
     <PanelContainer actions={actions}>
       <Donut value={1} />
@@ -43,7 +45,7 @@ export const overview = () => {
   );
 };
 
-export const openTab = () => {
+export const openTab: Example = () => {
   return (
     <PanelContainer actions={actions} openTab="panel-1">
       <Donut value={1} />
@@ -51,7 +53,7 @@ export const openTab = () => {
   );
 };
 
-export const visibleTabs = () => {
+export const visibleTabs: Example = () => {
   return (
     <PanelContainer actions={actions} visibleTabs={true}>
       <Donut value={1} />

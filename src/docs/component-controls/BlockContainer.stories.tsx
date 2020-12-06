@@ -1,13 +1,14 @@
 import React from 'react';
 import { Donut } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 import { BlockContainer, BlockContainerProps, ThemeProvider } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/BlockContainer',
   component: BlockContainer,
-};
+} as Document;
 
-export const overview = ({ title }: BlockContainerProps) => {
+export const overview: Example<BlockContainerProps> = ({ title }) => {
   return (
     <BlockContainer title={title}>
       <Donut value={1 / 2} />
@@ -15,13 +16,11 @@ export const overview = ({ title }: BlockContainerProps) => {
   );
 };
 
-overview.story = {
-  controls: {
-    title: { type: 'text', value: 'Block title' },
-  },
+overview.controls = {
+  title: { type: ControlTypes.TEXT, value: 'Block title' },
 };
 
-export const notCollapsible = () => {
+export const notCollapsible: Example = () => {
   return (
     <BlockContainer title="BlockContainer" collapsible={false}>
       <Donut value={1 / 2} />
@@ -29,7 +28,7 @@ export const notCollapsible = () => {
   );
 };
 
-export const customId = () => {
+export const customId: Example = () => {
   return (
     <BlockContainer title="BlockContainer" id="custom-id">
       <Donut value={1 / 2} />
@@ -37,7 +36,7 @@ export const customId = () => {
   );
 };
 
-export const description = () => {
+export const description: Example = () => {
   return (
     <ThemeProvider>
       <BlockContainer

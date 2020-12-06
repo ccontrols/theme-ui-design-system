@@ -1,13 +1,14 @@
 import React from 'react';
 import { Box, Button } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 import { Collapsible, CollapsibleProps } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/Collapsible',
   component: Collapsible,
-};
+} as Document;
 
-export const overview = ({ easing }: CollapsibleProps) => {
+export const overview: Example<CollapsibleProps> = ({ easing }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <Box>
@@ -21,14 +22,12 @@ export const overview = ({ easing }: CollapsibleProps) => {
   );
 };
 
-overview.story = {
-  smartControls: {
-    smart: false,
-  },
-  controls: {
-    easing: {
-      type: 'options',
-      options: ['ease', 'linear', 'ease-in', 'ease-out', 'ease-in-out'],
-    },
+overview.smartControls = {
+  smart: false,
+};
+overview.controls = {
+  easing: {
+    type: ControlTypes.OPTIONS,
+    options: ['ease', 'linear', 'ease-in', 'ease-out', 'ease-in-out'],
   },
 };

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Heading } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Heading, HeadingProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Heading',
   component: Heading,
-};
+} as Document;
 
-export const overview = ({ as }) => (
+export const overview: Example<HeadingProps> = ({ as }) => (
   <Heading as={as}>heading text</Heading>
 );
 

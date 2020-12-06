@@ -1,15 +1,16 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Label, Input, Box, Checkbox, Select, Textarea, Flex, Radio, Slider, Button } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Form',
   description: `**Tip**: Each form field needs to include a \`<label>\` element with an \`htmlFor\` prop that matches its field. The entire form should be wrapped in a \`<form>\` element.
 
   Add styles for form elements in the \`theme.forms\` object.`
-};
+} as Document;
 
-export const overview = () => (
+export const overview: Example = () => (
   <Box
     as='form'
     onSubmit={e => e.preventDefault()}>

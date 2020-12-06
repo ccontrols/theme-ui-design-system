@@ -1,14 +1,14 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Container, ThemeUICSSProperties } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Container',
   component: Container,
-};
+} as Document;
 
-export const overview = ({ bg, p }) => (
+export const overview: Example<ThemeUICSSProperties> = ({ bg, p }) => (
   <Container sx={{ bg, p }}>Container text</Container>
 );
 

@@ -1,13 +1,14 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Alert, Close, Flex, Text } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Alert',
   component: Alert,
-};
+} as Document;
 
-export const overview = () => (
+export const overview: Example = () => (
   <Alert variant="primary">
     <Flex
       sx={{

@@ -1,24 +1,23 @@
 import React from 'react';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 import { ExternalLink, ExternalLinkProps } from '@component-controls/components';
 
 export default {
   title: 'Components/component-controls/ExternalLink',
   component: ExternalLink,
-};
+} as Document;
 
-export const overview = ({ href }: ExternalLinkProps) => {
+export const overview: Example<ExternalLinkProps> = ({ href }) => {
   return <ExternalLink href={href}>{href}</ExternalLink>;
 };
 
-overview.story = {
-  smartControls: {
-    smart: false,
-  },
-  controls: {
-    href: {
-      type: 'text',
-      value: 'https://www.google.com',
-      data: { name: 'internet.url' },
-    },
+overview.smartControls = {
+  smart: false,
+};
+overview.controls = {
+  href: {
+    type: ControlTypes.TEXT,
+    value: 'https://www.google.com',
+    data: { name: 'internet.url' },
   },
 };

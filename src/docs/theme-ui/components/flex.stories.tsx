@@ -1,16 +1,16 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Flex, Box } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Flex, Box, ThemeUICSSProperties } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Flex',
   component: Flex,
   description:
     'The Flex component is identical to the Box component, but with display: flex set. If you need to alter the display property, use the Box component instead.',
-};
+} as Document;
 
-export const overview = ({ flexDirection, p }) => (
+export const overview: Example<ThemeUICSSProperties> = ({ flexDirection, p }) => (
   <Flex sx={{ flexDirection, p }}>
     <Box sx={{ flex: '1 1 auto', bg: 'background', m: 1 }}>
       Box 1

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Message } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Message',
   component: Message,
-};
+} as Document; 
 
-export const overview = () => <Message>This is just a message for someone to read</Message>;
+export const overview: Example = () => <Message>This is just a message for someone to read</Message>;

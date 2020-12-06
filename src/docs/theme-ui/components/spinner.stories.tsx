@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Spinner } from 'theme-ui';
-import { ControlTypes } from '@component-controls/core';
+import { Spinner, SpinnerProps } from 'theme-ui';
+import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
   title: 'Components/theme-ui/Spinner',
@@ -12,9 +12,9 @@ export default {
   
   Spinner variants can be defined anywhere in the \`theme\` object.
   `
-};
+} as Document;
 
-export const overview = ({ size, strokeWidth }) => <Spinner size={size} strokeWidth={strokeWidth} />;
+export const overview: Example<SpinnerProps> = ({ size, strokeWidth }) => <Spinner size={size} strokeWidth={strokeWidth} />;
 
 overview.controls = {
   size: { type: ControlTypes.NUMBER, value: 48 },
