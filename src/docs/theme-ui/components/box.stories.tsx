@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Box, BoxProps } from 'theme-ui';
+import { Box, ThemeUICSSObject } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 
 export default {
@@ -10,7 +10,7 @@ export default {
     'Use the `Box` component as a layout primitive to add margin, padding, and colors to content.',
 } as Document;
 
-export const overview: Example<BoxProps> = ({ color, bg, p }) => (
+export const overview: Example<ThemeUICSSObject> = ({ color, bg, p }) => (
   <Box sx={{ color, background: bg, p }}>some text</Box>
 );
 
