@@ -1481,41 +1481,50 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@component-controls/app@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/app/-/app-2.0.1.tgz#80de06c962ab168056d169fee421ae5684fe768f"
-  integrity sha512-hZLIvDGvMEJ6MISVshLOOwzctGKiybjyBGbORtPzPh+2vUb1F8yV7JIC9XjPcjTMbE0s3Rgrz1EpLECmR1L3Hg==
+"@component-controls/addon-stats@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/addon-stats/-/addon-stats-2.2.0.tgz#3c617d38cc54725e8c200cb0b0912ea3a2f6e56a"
+  integrity sha512-blwXDYLl8EwOwN0E2tFq8RXV+h6j/de698Ah2hWZ40wwcPa7eDHCZvhIigdVS5MwLnm0wQw6iUgvJmJOIzbl0w==
   dependencies:
-    "@component-controls/blocks" "^2.0.1"
-    "@component-controls/components" "^2.0.1"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/pages" "^2.0.1"
-    "@component-controls/store" "^2.0.1"
+    "@component-controls/blocks" "^2.2.0"
+    "@component-controls/components" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+
+"@component-controls/app@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/app/-/app-2.2.0.tgz#cc94f3deedc68c9915d86c4dd31ed6d0b2331c41"
+  integrity sha512-dkeUvAk1nGjP48m5+D/UO7pHkR8JPsvGqNRg8yyyI/UwJaVpOIkDgi2oAMSrXN/d3c28DmtHpTx9xfjLs8bIUA==
+  dependencies:
+    "@component-controls/blocks" "^2.2.0"
+    "@component-controls/components" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/pages" "^2.2.0"
+    "@component-controls/store" "^2.2.0"
     query-string "^6.13.5"
 
-"@component-controls/axe-plugin@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/axe-plugin/-/axe-plugin-2.0.1.tgz#35385766314392e06155a8f1c1017943afc33152"
-  integrity sha512-qeqpFOthFoMCjV5MHmf7dO130EmqcKMXMhkafQVqoe2zdmsCnoSxL5KdxujAC9rLu6oDJ73xN7xqePxWK3refw==
+"@component-controls/axe-plugin@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/axe-plugin/-/axe-plugin-2.2.0.tgz#25fc234eff9f607c4917d4983379ab2ba021c310"
+  integrity sha512-s/cStzEmi6PXmmRK6e+zITfv1nPEfu/32wWzxcKDMFccmrXE4SEcdrVaweIDfhXGbCcLWC26rYVV64FTbqJpHg==
   dependencies:
-    "@component-controls/blocks" "^2.0.1"
-    "@component-controls/components" "^2.0.1"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/store" "^2.0.1"
+    "@component-controls/blocks" "^2.2.0"
+    "@component-controls/components" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/store" "^2.2.0"
     "@primer/octicons-react" "^10.0.0"
     axe-core "^4.1.1"
     react-google-charts "^3.0.15"
 
-"@component-controls/blocks@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/blocks/-/blocks-2.0.1.tgz#8fda1d51d894d06c5ece60966038dac32fc60742"
-  integrity sha512-Zi7/dDYFQLgHYGJt8yNArc0PH6fOW7ZF9Nh5A782Nwh3SW+WN9WcVjCmmEpoFFUqrxWHfkWtHBDYhppxqd1LcQ==
+"@component-controls/blocks@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/blocks/-/blocks-2.2.0.tgz#481544fb780ac6f9ec028b387057421067f38ec5"
+  integrity sha512-luxaxPzKU4YxeadD9ZWgdLLQJ5cZWGWQZ7R9BA95PcvJeYWg+7uk561+rLaD0QCOr+X+sZVXE5+IZNPjwK1KrQ==
   dependencies:
-    "@component-controls/components" "^2.0.1"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/editors" "^2.0.1"
-    "@component-controls/render" "^2.0.1"
-    "@component-controls/store" "^2.0.1"
+    "@component-controls/components" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/editors" "^2.2.0"
+    "@component-controls/render" "^2.2.0"
+    "@component-controls/store" "^2.2.0"
     "@theme-ui/css" "^0.6.0-alpha.1"
     copy-to-clipboard "^3.2.1"
     fuse.js "^6.4.1"
@@ -1528,10 +1537,10 @@
     stringify-object "^3.3.0"
     theme-ui "^0.6.0-alpha.1"
 
-"@component-controls/components@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/components/-/components-2.0.1.tgz#d8e60489c9b11789313c9d06752b4136efb29a7a"
-  integrity sha512-iOb5O2EPIKzzIMqLkS3HelWlF+fZ4N3eia7+nVQo7P9nSToCKCLrM0IEly+sxAIRIY5j+otawjSScabBCZoXPQ==
+"@component-controls/components@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/components/-/components-2.2.0.tgz#0510c618f7dd5576e362dac53f055ea966590ed6"
+  integrity sha512-s7vnA5qFkLkOmImF5S7a5ebrDDDmwajXGtYWYaXriaV6kdTjVCnrpbZeSBjQ6ab2Ypopm3KPLMBrunG4chDm5w==
   dependencies:
     "@primer/octicons-react" "^10.0.0"
     "@theme-ui/match-media" "^0.6.0-alpha.1"
@@ -1549,12 +1558,12 @@
     scroll-into-view-if-needed "^2.2.25"
     theme-ui "^0.6.0-alpha.1"
 
-"@component-controls/config@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/config/-/config-2.0.1.tgz#a0524b53657e4cd31eeac4613aea1237a58c6a20"
-  integrity sha512-OnDSFp/Rr2zDtUkhsn0qM19Y/0AHTp6srlRVs17Fj3kgWGEKbeYKGLZrSVImC3y9PWVU3NnP2hodbTElZCWjzQ==
+"@component-controls/config@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/config/-/config-2.2.0.tgz#0a4d278cb8c336b0d60e8530a6c9435ec2894844"
+  integrity sha512-h0O3MjOv+eaczxXzRUdzr4OLYD38rtci/Fuu0R4f/fMZoiZtRGkI/MBFTfW76YlmB+ulKhaGZEOGc0CC4xAWeQ==
   dependencies:
-    "@component-controls/core" "^2.0.1"
+    "@component-controls/core" "^2.2.0"
     esm "^3.2.25"
     glob "^7.1.6"
     glob-base "^0.3.0"
@@ -1562,64 +1571,64 @@
     typescript "^4.0.5"
     yargs "^15.3.1"
 
-"@component-controls/core@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/core/-/core-2.0.1.tgz#73ae6bd14e2caf314afef099fed643ec4d5528af"
-  integrity sha512-mBd88+HwsZf/WTMoWCs/YxkHYV1YyUZEbUp4ifLtIZNSIZqoM7B7bjTqEbnpSv+ZE4ea2iXMOg/FxWKkN9oFQg==
+"@component-controls/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/core/-/core-2.2.0.tgz#444b9d651ed8b6a77e2bc517f61a0bf30dd1da06"
+  integrity sha512-/7XP2iEvKI6PcHvCVi88QeIIoO020IODhT2G6h8cbo58ZW03Yfiqw8z64pMC0B5VljElkpNG8M6ybq4SmevmqA==
   dependencies:
-    "@component-controls/logger" "^2.0.0"
+    "@component-controls/logger" "^2.2.0"
     "@storybook/csf" "^0.0.1"
     deepmerge "^4.2.2"
     escape-html "^1.0.3"
     faker "^4.1.0"
     typescript "^4.0.5"
 
-"@component-controls/design-tokens@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/design-tokens/-/design-tokens-2.0.1.tgz#c6ebf942f8f829505bda7fce3343f37f376fe7d2"
-  integrity sha512-QgVkBsyHWRGO+TGQBuqW/RsfgzL6vky2GGxuF0pFpnKusp0TEVV8MtZeNMzT2FXhqUecq4LbZ9j+RvQHCfHNUA==
+"@component-controls/design-tokens@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/design-tokens/-/design-tokens-2.2.0.tgz#10ec72240010119830d38680e1ae70abf41f2fde"
+  integrity sha512-no8XIFu6LScN82J4R+ZPzVkbrOAE7MqFAhu7gfg1fFbs1qWUyVCkImlWmqKSlvTR3F8U8gzIOR1leFL5xDBLLQ==
   dependencies:
-    "@component-controls/components" "^2.0.1"
+    "@component-controls/components" "^2.2.0"
     copy-to-clipboard "^3.2.1"
     simple-color-converter "^2.1.9"
     tinycolor2 "^1.4.1"
 
-"@component-controls/editors@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/editors/-/editors-2.0.1.tgz#45fba31af804434060883ce6ed0f9db03366d457"
-  integrity sha512-vo77tBzNPcLAMs7WmUzPk88MFTxTVDF0BUM03wlvl6vYoNvATDclfpd5Gc+LwztsOJ8vPaz8VVjLOHqxClmLTg==
+"@component-controls/editors@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/editors/-/editors-2.2.0.tgz#629c220ce985849ae9c6460c522c219893c691a2"
+  integrity sha512-fU7gZvrH0NSXsTG4pHE0OKhcN/VizIdY48jaAOOsFEnagILjhUgqckHDjgYGn6YDj0NIEtD9yQzUB7aVmaQ3lg==
   dependencies:
-    "@component-controls/components" "^2.0.1"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/store" "^2.0.1"
+    "@component-controls/components" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/store" "^2.2.0"
     global "^4.3.2"
     polished "^3.4.4"
     react-colorful "^4.4.1"
 
-"@component-controls/gatsby-theme-stories@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/gatsby-theme-stories/-/gatsby-theme-stories-2.0.1.tgz#213b2657bb8723b11323779d45c79d30376e79ae"
-  integrity sha512-EpMoSaJo/D5+geQxwpVafjh0VLwjw5wjSsSpd8pN+Mj5zF/1rpGeazIP0pZCi+1U7xaD6CuYDjUQFp9UWG+Xzg==
+"@component-controls/gatsby-theme-stories@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/gatsby-theme-stories/-/gatsby-theme-stories-2.2.0.tgz#064abc5fbe121ca3a7cc853349113c75aafd17e0"
+  integrity sha512-2/qOzCjGMUjzh+uyWO2X7gCxTAJQoe3TKke1izMryhKGq3T0nipJMTKnyXTpJBmrGub5oK79i/cCgiPzt7wVZA==
   dependencies:
-    "@component-controls/app" "^2.0.1"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/pages" "^2.0.1"
-    "@component-controls/webpack-compile" "^2.0.1"
-    "@component-controls/webpack-configs" "^2.0.1"
+    "@component-controls/app" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/pages" "^2.2.0"
+    "@component-controls/webpack-compile" "^2.2.0"
+    "@component-controls/webpack-configs" "^2.2.0"
     gatsby-plugin-theme-ui "^0.3.0"
     gatsby-plugin-typescript "^2.4.24"
     react-helmet "^6.0.0"
     theme-ui "^0.6.0-alpha.1"
 
-"@component-controls/instrument@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/instrument/-/instrument-2.0.1.tgz#f8192c0ba8f30ce7c454570daa9d9a867aec9c69"
-  integrity sha512-uTbkWOJ1TFcKm5QkDaZXQmEQd1yKEGlWiYeA5NBc9kz7jXPNf7tXS3Zp9agHm0bM+ha3PVC3gnRXH/qgfPQfPA==
+"@component-controls/instrument@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/instrument/-/instrument-2.2.0.tgz#7c076f7f6f6506b7efffba8633360fac6c9cc8cf"
+  integrity sha512-+4fwWgQiJmBZIoXItChf79ILIY1urXAvBpk7pfKcvAmzAEBRzHzunhZdpTDgvVfK3mWSq3rDkjXxvbn/rUwRbA==
   dependencies:
     "@babel/generator" "^7.12.5"
     "@babel/parser" "^7.12.5"
     "@babel/traverse" "^7.12.5"
-    "@component-controls/core" "^2.0.1"
+    "@component-controls/core" "^2.2.0"
     "@hutson/parse-repository-url" "^5.0.0"
     "@mdx-js/loader" "^1.5.5"
     "@mdx-js/react" "^1.6.5"
@@ -1636,114 +1645,114 @@
     resolve "^1.15.1"
     typescript "^4.0.5"
 
-"@component-controls/loader@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/loader/-/loader-2.0.1.tgz#bf0c1245215059159bc002b0dc9a6833535bab82"
-  integrity sha512-vLtVWGmDGcYvZ2DmctTnU1ycKUyG36yY/5l41npfuSorkef2XT0z5l3QTN9h8EUn0Vu+lBDJeO5eDeT4EJlnLg==
+"@component-controls/loader@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/loader/-/loader-2.2.0.tgz#931ab6ab5121d36d7f1f56b745d786acd76912dc"
+  integrity sha512-+3ohSrXnTXCZqNEq9khB+19/ppPrkiwlLGG4wBKnhs036lexAycC4yz/X0BzovKXLVwQdfJ+x7Sj+GYGonO5TQ==
   dependencies:
-    "@component-controls/config" "^2.0.1"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/instrument" "^2.0.1"
-    "@component-controls/logger" "^2.0.0"
+    "@component-controls/config" "^2.2.0"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/instrument" "^2.2.0"
+    "@component-controls/logger" "^2.2.0"
     js-string-escape "^1.0.1"
     loader-utils "^1.2.3"
     typescript "^4.0.5"
     webpack "^4.41.6"
 
-"@component-controls/logger@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@component-controls/logger/-/logger-2.0.0.tgz#b241bf88ced09ce442a3af52ae37f08fbf1a4f69"
-  integrity sha512-vdZ7dx+h5LlM3HNP5S2dEWsB4vTxbhIPqXEIDL1GyeV3xBVz4SsCWWnIkowtkjnxqTO3WnxqhvJscMt7g5Y7sA==
+"@component-controls/logger@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/logger/-/logger-2.2.0.tgz#0184ecd976086a92ba633538b1510540b42b3369"
+  integrity sha512-/H4HCWqP0lSVDgLh5xZorK9FLOuKiR6NijPyfntAr4S9/tIM+I1y1RAL/TcSTlzRtsHDPRPHAqpYKUL6G67DyA==
   dependencies:
     chalk "^4.0.0"
 
-"@component-controls/nextjs-plugin@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/nextjs-plugin/-/nextjs-plugin-2.0.1.tgz#56e47f04fab1bb2a3b589d254c5f0ccbeae27abc"
-  integrity sha512-DxffkKE2GoRDH2o3Rg2tB9tDcc7xt6PHBIfxr17tMPpcgsm5t0lh9UaRfuOuQIzCwMoDKMCFCQQGem4xGYersg==
+"@component-controls/nextjs-plugin@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/nextjs-plugin/-/nextjs-plugin-2.2.0.tgz#7fe5619b138099dfab6dee5445f787e75a0add08"
+  integrity sha512-vI7uaFjxmuY01LKR3cL4G3hMUiK1O9ugoOU5fMoEe9kzXQpHFaOLDaj9iAIxkniVYkuxVzlZVd0IfpTCuRUgWg==
   dependencies:
-    "@component-controls/app" "^2.0.1"
-    "@component-controls/webpack-compile" "^2.0.1"
-    "@component-controls/webpack-configs" "^2.0.1"
+    "@component-controls/app" "^2.2.0"
+    "@component-controls/webpack-compile" "^2.2.0"
+    "@component-controls/webpack-configs" "^2.2.0"
     "@emotion/babel-plugin" "^11.0.0"
     next "^10.0.3"
 
-"@component-controls/pages@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/pages/-/pages-2.0.1.tgz#e28268f7c842654e361b893c635e693466ea076c"
-  integrity sha512-9juwalOt9lEuPjD97IbhLu47Jt/TtK2eGYNfldmefU9uyJTUnWKdOiHxFlslCgTjWI9vo8Kx9yPxYSLzVQgeWg==
+"@component-controls/pages@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/pages/-/pages-2.2.0.tgz#7d2abcc7d9e170bb683553dc240ca4a6e4eda982"
+  integrity sha512-+2F5MOyV+he83CWudHlLeamuNbBMw/vf/lfLfB9MBYI37nLCQ60P0H+9DIzOzTYQkCgyXvnUrE5wIXvTENvy2A==
   dependencies:
-    "@component-controls/blocks" "^2.0.1"
+    "@component-controls/blocks" "^2.2.0"
 
-"@component-controls/react-docgen-info@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/react-docgen-info/-/react-docgen-info-2.0.1.tgz#a4c840fe5090116c1bb87a97c46de2b0a13e124f"
-  integrity sha512-qxhHbHWOIAY8DVAvSLzYbo3qoOVhLtxwUksLE+Y33+5YpnntINUEVcnYlXiAmZaa9eibGT5/EwMFmupjaG1WWg==
+"@component-controls/react-docgen-info@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/react-docgen-info/-/react-docgen-info-2.2.0.tgz#295179a8337887f0fbd1e7aadfcb7bfb2547c1cd"
+  integrity sha512-itl93bzqm73LwKqyPcz5v70Vl5Yql4YOiZGDqj/5oU1Lu7ov7RkW5/2wlyRSBjghW00RiXgIb5AS/9wfvfOu2Q==
   dependencies:
-    "@component-controls/core" "^2.0.1"
+    "@component-controls/core" "^2.2.0"
     react-docgen "^5.3.0"
 
-"@component-controls/react-docgen-typescript-info@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/react-docgen-typescript-info/-/react-docgen-typescript-info-2.0.1.tgz#4982ce0c424d7713b56b2b18298cbfe2bb25c321"
-  integrity sha512-DDB7Zm6tw5PUE2XcjUdID6RfiDqhjiYLAykmohH9Dyzy+Z7MApp9nas58Nlo2nyH+847cTOVfqtxSmYODLcXdA==
+"@component-controls/react-docgen-typescript-info@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/react-docgen-typescript-info/-/react-docgen-typescript-info-2.2.0.tgz#ac6d16f0fb62b7f76f246be81c2f5572f7c95110"
+  integrity sha512-3un9i4HjKPI7C/865hGV+N32IrAFl3bF/btWDUVFwf995KDz2V1fwI2k+ZcWJLr1PTjoXE9j5Q6bMB9piAe94w==
   dependencies:
-    "@component-controls/core" "^2.0.1"
+    "@component-controls/core" "^2.2.0"
     react-docgen-typescript "^1.20.5"
 
-"@component-controls/render@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/render/-/render-2.0.1.tgz#3e51b6d637203e63bc848338e594068bd7146aec"
-  integrity sha512-wUpzD7caQXrAR6zKfFpKus31PEufpGQeFrmwXuGgg74rKj6HiovDPrhGADA2uKSIC1h2r49ycQAYW4yLTu2ZqA==
+"@component-controls/render@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/render/-/render-2.2.0.tgz#b8019e44efcc828abb6d7224b8e569a8041adc56"
+  integrity sha512-xzZzZw71ky3JB8NUIzcrZHPvclBhS03Z4MHSUXlL1R2LVbmBFewzGcCc6iUe3H3irsfltEyTsqPL9i4B5RkVvw==
   dependencies:
-    "@component-controls/core" "^2.0.1"
+    "@component-controls/core" "^2.2.0"
 
-"@component-controls/store@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/store/-/store-2.0.1.tgz#412cdf1ec3c2975fa8c3a8e2414ba51bffcf5c42"
-  integrity sha512-FjOQx1sFPN/l/8gZ/RXqKD5YKLwJdY4H7Oq4u4vRftcbihrpU3+P5Af1atELeFhf3Hj0mMvU8cbl1JSL5jwhMw==
+"@component-controls/store@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/store/-/store-2.2.0.tgz#6c8df54db6d6be382f41fe25d743535031ab92d0"
+  integrity sha512-qxRCcnUGmAjwZMe6fR6Flvu3d+3Bke3p/xZZ5fZ8ZaeDxph8TTalw+yaSwXZRshEV8VNUIIU2TEdjW0DisJfJg==
   dependencies:
     "@analytics/google-analytics" "^0.4.0"
-    "@component-controls/core" "^2.0.1"
-    "@component-controls/loader" "^2.0.1"
-    "@component-controls/render" "^2.0.1"
+    "@component-controls/core" "^2.2.0"
+    "@component-controls/loader" "^2.2.0"
+    "@component-controls/render" "^2.2.0"
     analytics "^0.5.2"
     broadcast-channel "^3.1.0"
     recoil "^0.0.10"
     typescript "^4.0.5"
 
-"@component-controls/viewport-plugin@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/viewport-plugin/-/viewport-plugin-2.0.1.tgz#520bfd941e748d97d9e881879484bdae5468e63b"
-  integrity sha512-tH6JmaHhlW0t3S7dY8TjbuMxLM423q5iJxzfIX4jLAfwGRJFZNEA68uYKHjvbZ/f3D1E1OjpoEkUXkh8ZHU/eg==
+"@component-controls/viewport-plugin@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/viewport-plugin/-/viewport-plugin-2.2.0.tgz#6b26f4149cde00c213d2df470d17ad701c207a23"
+  integrity sha512-d2p5LAb3a6IrXB8WgJXM5NYsj5F6EafRy6/m8ygXWIYRb2QOifteqgIRqyYnENQ4tHcnaThu2bAqJJIFYh52kQ==
   dependencies:
-    "@component-controls/blocks" "^2.0.1"
-    "@component-controls/components" "^2.0.1"
+    "@component-controls/blocks" "^2.2.0"
+    "@component-controls/components" "^2.2.0"
 
-"@component-controls/webpack-compile@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/webpack-compile/-/webpack-compile-2.0.1.tgz#3b7c5d4aea06d6dca0a60edb176c92e22934e1ea"
-  integrity sha512-L6DvyoyAP4eRdUY2APCQMGTPdBU+yrrQPF4LmnqTuwluyS+2E10w5Be8EgTkeZZRpupd2a4+L24PfCUx6fqXEw==
+"@component-controls/webpack-compile@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/webpack-compile/-/webpack-compile-2.2.0.tgz#596d07ee3846e7a38740aef4771ce6c96e9a5ed5"
+  integrity sha512-d3XM29RUUe6qy+zIkGU8R8PKjDGqvzTmJDHGPuZHGVeDdcS4cHe7sHCzkPjcsYeCi93WWPYc0Igb39bFqHBDOA==
   dependencies:
-    "@component-controls/config" "^2.0.1"
-    "@component-controls/loader" "^2.0.1"
-    "@component-controls/logger" "^2.0.0"
-    "@component-controls/webpack-configs" "^2.0.1"
+    "@component-controls/config" "^2.2.0"
+    "@component-controls/loader" "^2.2.0"
+    "@component-controls/logger" "^2.2.0"
+    "@component-controls/webpack-configs" "^2.2.0"
     memory-fs "^0.5.0"
     typescript "^4.0.5"
     webpack "^4.43.0"
     yargs "^15.3.1"
 
-"@component-controls/webpack-configs@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@component-controls/webpack-configs/-/webpack-configs-2.0.1.tgz#f23eccf88447e41e9387a5bc54a578b66cd5ea4e"
-  integrity sha512-feMbacDDmcHKOYVR2JFu+paomPi8/noP9DviZTRQVehlJwphBfMsrJvllPxuOOMM1yG2xc9vzJpyWqszkqv7xg==
+"@component-controls/webpack-configs@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@component-controls/webpack-configs/-/webpack-configs-2.2.0.tgz#e65ea6ca22e64de094eb70c7c4b75d3edb1ffee4"
+  integrity sha512-o2YoXwbfWy2tzra6v0KYxVa3F2cWxGM9nCppPqcZtSCJXKtynUiHeLrlSS7Qz16V4o7Gt8FoBM78yrilGQBccw==
   dependencies:
-    "@component-controls/instrument" "^2.0.1"
-    "@component-controls/logger" "^2.0.0"
-    "@component-controls/react-docgen-info" "^2.0.1"
-    "@component-controls/react-docgen-typescript-info" "^2.0.1"
-    "@component-controls/store" "^2.0.1"
+    "@component-controls/instrument" "^2.2.0"
+    "@component-controls/logger" "^2.2.0"
+    "@component-controls/react-docgen-info" "^2.2.0"
+    "@component-controls/react-docgen-typescript-info" "^2.2.0"
+    "@component-controls/store" "^2.2.0"
     babel-loader "^8.0.6"
     babel-preset-react-app "^9.0.0"
     core-js "^3.7.0"
@@ -2387,6 +2396,16 @@
     "@theme-ui/css" "0.6.0-alpha.1"
     deepmerge "^4.2.2"
 
+"@theme-ui/color-modes@^0.6.0-alpha.3":
+  version "0.6.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color-modes/-/color-modes-0.6.0-alpha.3.tgz#5a1cec725b43563f9403182cf2b7df4f26ed153a"
+  integrity sha512-j64n4MQuoAB2BQLvCS13ZN6QtwlqHN/YUZNIMwW6ga6DTzdkiMQyXdUe7lp20I94HgXfsutapN/PsgcuBXbhJA==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    "@theme-ui/core" "0.6.0-alpha.1"
+    "@theme-ui/css" "0.6.0-alpha.1"
+    deepmerge "^4.2.2"
+
 "@theme-ui/components@0.6.0-alpha.1":
   version "0.6.0-alpha.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/components/-/components-0.6.0-alpha.1.tgz#efbecfedd2f62472a368198791576aadee3a9e72"
@@ -2399,6 +2418,19 @@
     "@styled-system/space" "^5.1.2"
     "@theme-ui/css" "0.6.0-alpha.1"
     "@types/styled-system" "^4.2.2"
+
+"@theme-ui/components@^0.6.0-alpha.3":
+  version "0.6.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@theme-ui/components/-/components-0.6.0-alpha.3.tgz#99a81b4ce4edfbcf77cf0285aa1d6fc905336e60"
+  integrity sha512-n/mYh5Yys3Os6Zl/yu+fWUof6KP3ZNQDbzV+40NliWlGgA+yXgnMPtNm9LHI6l1Z4XsFQOZn/hrZYPtCbRsWzg==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    "@emotion/styled" "^11.0.0"
+    "@styled-system/color" "^5.1.2"
+    "@styled-system/should-forward-prop" "^5.1.2"
+    "@styled-system/space" "^5.1.2"
+    "@theme-ui/css" "0.6.0-alpha.1"
+    "@types/styled-system" "^5.1.10"
 
 "@theme-ui/core@0.6.0-alpha.1":
   version "0.6.0-alpha.1"
@@ -2551,6 +2583,16 @@
   dependencies:
     "@emotion/react" "^11.1.1"
     "@theme-ui/color-modes" "0.6.0-alpha.1"
+    "@theme-ui/core" "0.6.0-alpha.1"
+    "@theme-ui/mdx" "0.6.0-alpha.1"
+
+"@theme-ui/theme-provider@^0.6.0-alpha.3":
+  version "0.6.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@theme-ui/theme-provider/-/theme-provider-0.6.0-alpha.3.tgz#7514d004baf9a80ae71e2aa8499b0f2a1a7147f0"
+  integrity sha512-FUQlYZvr73lxdCzDKHsudRv8J0USt725ll70MFvXQcEBJWvunV8jmurR94tj2G+i04xLp3wa8x3UTAqfm7/q0g==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    "@theme-ui/color-modes" "^0.6.0-alpha.3"
     "@theme-ui/core" "0.6.0-alpha.1"
     "@theme-ui/mdx" "0.6.0-alpha.1"
 
@@ -2754,6 +2796,13 @@
   integrity sha512-eULPjWVEaXElIFKBwDVWRvGkHC0Fj63XVRna8RHoaRivNhCI/QkEJpMgyb0uA4WpsHpO5SDXH+DyQwEUkyW3rA==
   dependencies:
     csstype "^2.6.4"
+
+"@types/styled-system@^5.1.10":
+  version "5.1.10"
+  resolved "https://registry.yarnpkg.com/@types/styled-system/-/styled-system-5.1.10.tgz#dcf5690dd837ca49b8de1f23cb99d510c7f4ecb3"
+  integrity sha512-OmVjC9OzyUckAgdavJBc+t5oCJrNXTlzWl9vo2x47leqpX1REq2qJC49SEtzbu1OnWSzcD68Uq3Aj8TeX+Kvtg==
+  dependencies:
+    csstype "^3.0.2"
 
 "@types/tmp@^0.0.33":
   version "0.0.33"
@@ -12042,6 +12091,11 @@ react-table@^7.0.0:
   resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.6.0.tgz#83d765b96505b5332d108a2e0c27ab653f5a78c3"
   integrity sha512-16kRTypBWz9ZwLnPWA8hc3eIC64POzO9GaMBiKaCcVM+0QOQzt0G7ebzGUM8SW0CYUpVM+glv1kMXrWj9tr3Sw==
 
+react-table@^7.6.2:
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.6.2.tgz#b60932fa6d457c2bca0da49815cd6a8fe9451f77"
+  integrity sha512-urwNZTieb+xg/+BITUIrqdH5jZfJlw7rKVAAq25iXpBPwbQojLCEKJuGycLbVwn8fzU+Ovly3y8HHNaLNrPCvQ==
+
 react-tabs@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/react-tabs/-/react-tabs-3.1.1.tgz#b363a239f76046bb2158875a1e5921b11064052f"
@@ -13903,6 +13957,18 @@ text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+theme-ui@0.6.0-alpha.3:
+  version "0.6.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.6.0-alpha.3.tgz#0157676995c15da690dc01ed1744ecab1960409d"
+  integrity sha512-o+6LoXmM/xDnzgeofMgbb6OOwOp43PMgTQ0gi56F2J1smC6usfBPBMM6DDvh7ELZYN23eUW1tIPkPLQoxY7x8g==
+  dependencies:
+    "@theme-ui/color-modes" "^0.6.0-alpha.3"
+    "@theme-ui/components" "^0.6.0-alpha.3"
+    "@theme-ui/core" "0.6.0-alpha.1"
+    "@theme-ui/css" "0.6.0-alpha.1"
+    "@theme-ui/mdx" "0.6.0-alpha.1"
+    "@theme-ui/theme-provider" "^0.6.0-alpha.3"
 
 theme-ui@^0.6.0-alpha.1:
   version "0.6.0-alpha.1"

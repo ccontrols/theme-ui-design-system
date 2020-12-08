@@ -3,8 +3,10 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = {
   stories: [
-    '../src/docs/theme-ui/components/*.@(mdx|tsx)',
-    '../src/docs/component-controls/*.@(mdx|tsx)',
+    '../src/docs/theme-ui/docs/*.mdx',
+    '../src/docs/theme-ui/components/*.tsx',
+    '../src/docs/component-controls/docs/*.mdx',
+    '../src/docs/component-controls/components/*.tsx',
     '../src/docs/design-tokens/*.@(mdx|tsx)',
   ],
   siteUrl: `https://theme-ui-design-system.netlify.app`,
