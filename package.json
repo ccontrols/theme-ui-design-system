@@ -8,7 +8,7 @@
     "build": "next build && next export",
     "start": "next",
     "start-server": "next build && next start",
-    "build-gatsby": "gatsby clean && gatsby build",
+    "build-gatsby": "gatsby build",
     "start-gatsby": "gatsby develop"
   },
   "repository": {
