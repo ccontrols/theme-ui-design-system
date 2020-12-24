@@ -2,8 +2,6 @@ import React from 'react';
 import { RunOnlyConfiguration, defaultRunConfig } from "@component-controls/core";
 import { Link } from "@component-controls/components";
 import { defaultLinks } from "@component-controls/app";
-import { TestingPage } from './TestingPage';
-import { ThemesPage } from './ThemesPage';
 
 const config: RunOnlyConfiguration =  {
   title: `theme-ui components`,
@@ -18,15 +16,6 @@ const config: RunOnlyConfiguration =  {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:400,700,900|Roboto:400,600|Architects+Daughter",
   }],
-  pages: {
-    story: {
-      tabs: [
-        ...defaultRunConfig.pages.story.tabs,
-        { title: 'Testing', render: () => <TestingPage /> },
-        { title: 'Themes', render: () => <ThemesPage /> },
-      ],
-    },
-  },
   toolbar: {
     right: [
       {

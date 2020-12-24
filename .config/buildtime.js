@@ -1,5 +1,7 @@
 const path = require('path');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin;
+const { defaultBuildConfig } = require('@component-controls/core');
 
 module.exports = {
   stories: [
@@ -12,21 +14,39 @@ module.exports = {
   siteUrl: `https://theme-ui-design-system.netlify.app`,
   pages: {
     story: {
-      tabs: [{ route: 'page' }, { route: 'test' }, { route: 'themes' }],
+      tabs: [
+        ...defaultBuildConfig.pages.story.tabs,
+        {
+          route: 'test',
+          title: 'Testing',
+          template: '@component-controls/pages/TestingPage',
+        },
+        {
+          route: 'themes',
+          title: 'Themes',
+          template: require.resolve('./ThemesPage.tsx'),
+        },
+      ],
     },
   },
   instrument: {
     components: {
       package: {
-        browseLink: (componentName, filePath ) =>   {
-          if (filePath.includes('system-ui/theme-ui/tree/master/dist/index.js')) {
-            return `https://github.com/system-ui/theme-ui/tree/master/packages/components/src/${componentName}.js`
+        browseLink: (componentName, filePath) => {
+          if (
+            filePath.includes('system-ui/theme-ui/tree/master/dist/index.js')
+          ) {
+            return `https://github.com/system-ui/theme-ui/tree/master/packages/components/src/${componentName}.js`;
           }
-          if (filePath.includes('/component-controls/tree/master/ui/components/dist/index.js')) {
-            return `https://github.com/ccontrols/component-controls/blob/master/ui/components/src/${componentName}/${componentName}.tsx`
+          if (
+            filePath.includes(
+              '/component-controls/tree/master/ui/components/dist/index.js',
+            )
+          ) {
+            return `https://github.com/ccontrols/component-controls/blob/master/ui/components/src/${componentName}/${componentName}.tsx`;
           }
           return filePath;
-        }
+        },
       },
       resolveFile: (componentName, filePath) => {
         if (filePath.includes('theme-ui/dist')) {
@@ -62,7 +82,7 @@ module.exports = {
       plugins: [
         ...config.plugins,
         // new BundleAnalyzerPlugin()
-      ]
+      ],
     };
-  }
+  },
 };
