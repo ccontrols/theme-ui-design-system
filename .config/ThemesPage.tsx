@@ -8,7 +8,7 @@ import { ThemeProvider } from 'theme-ui';
 import { BlockContainer } from '@component-controls/components';
 import { useThemes } from '../src/components/useThemes';
 
-export const ThemesPage = () => {
+const ThemesPage = () => {
   const themes = useThemes();
   return (
     <>
@@ -24,3 +24,4 @@ export const ThemesPage = () => {
   );
 }
 
+export default ThemesPage;
