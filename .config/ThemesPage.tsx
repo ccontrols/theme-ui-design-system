@@ -1,5 +1,6 @@
 /* eslint-disable react/display-name */
 import React from 'react';
+import { TabConfiguration } from  '@component-controls/core';
 import {
   Story,
   Description,
@@ -24,4 +25,7 @@ const ThemesPage = () => {
   );
 }
 
-export default ThemesPage;
+export default {
+  title: 'Themes',
+  component: ThemesPage
+} as TabConfiguration  
