@@ -8,6 +8,7 @@ export default {
   component: Box,
   description:
     'Use the `Box` component as a layout primitive to add margin, padding, and colors to content.',
+  category: 'Containers',
 } as Document;
 
 export const overview: Example<ThemeUICSSObject> = ({ color, bg, p }) => (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Example } from '@component-controls/core';
+import { Document, Example } from '@component-controls/core';
 import { Tabs, Tab, TabList, TabPanel } from '@component-controls/components';
 
 export default {
@@ -10,7 +10,8 @@ export default {
     TabList,
     TabPanel,
   },
-};
+  category: 'Navigation',
+} as Document;
 
 const tabs: {
   [key: string]: string;

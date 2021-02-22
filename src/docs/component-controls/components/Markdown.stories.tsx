@@ -1,11 +1,12 @@
 import React from 'react';
 import { Document, Example } from '@component-controls/core';
-import { Markdown, ThemeProvider } from '@component-controls/components';
+import { ThemeProvider, Markdown } from '@component-controls/components';
 
 export default {
   title: 'component-controls/Markdown',
   component: Markdown,
-} as Document; 
+  category: 'Typography',
+} as Document;
 
 export const overview: Example = () => (
   <ThemeProvider>

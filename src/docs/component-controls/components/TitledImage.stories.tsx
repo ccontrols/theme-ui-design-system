@@ -6,6 +6,7 @@ import { TitledImage } from '@component-controls/components';
 export default {
   title: 'component-controls/TitledImage',
   component: TitledImage,
+  category: 'Media',
 } as Document;
 
 export const overview: Example<ImageProps> = ({ title }) => {

@@ -6,6 +6,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Container',
   component: Container,
+  category: 'Containers',  
 } as Document;
 
 export const overview: Example<ThemeUICSSProperties> = ({ bg, p }) => (

@@ -6,6 +6,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Grid',
   component: Grid,
+  category: 'Containers',      
 } as Document;
 
 export const width: Example<{ width1: number, width3: number }> = ({ width1, width3 }) => (

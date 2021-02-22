@@ -6,6 +6,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Input',
   component: Input,
+  category: 'Input',
 } as Document;
 
 export const overview: Example<InputProps> = ({ defaultValue }) => (

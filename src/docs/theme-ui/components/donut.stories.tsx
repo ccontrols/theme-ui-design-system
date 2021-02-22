@@ -6,7 +6,8 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Donut',
   component: Donut,
-  description: 'Donut variants can be defined anywhere in the `theme` object.'
+  description: 'Donut variants can be defined anywhere in the `theme` object.',
+  category: 'Display',  
 } as Document;
 
 export const overview: Example<DonutProps> = props => <Donut {...props} />;

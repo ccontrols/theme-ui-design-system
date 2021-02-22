@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Badge, Input } from 'theme-ui';
+import { Document, Example } from '@component-controls/core';
 import {
   InboxIcon,
   MailIcon,
@@ -10,14 +11,13 @@ import {
   StarIcon,
   TriangleDownIcon,
 } from '@primer/octicons-react';
-import { Document, Example } from '@component-controls/core';
 import { Tree } from '@component-controls/components';
 
 export default {
   title: 'component-controls/Tree',
   component: Tree,
+  category: 'Navigation',
 } as Document;
-
 
 export const overview: Example = () => (
   <Box css={{ width: 200 }}>

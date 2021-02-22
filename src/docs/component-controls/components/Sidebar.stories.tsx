@@ -2,14 +2,17 @@ import React from 'react';
 import { ProjectIcon } from '@primer/octicons-react';
 import { Flex } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
-import { Sidebar, SidebarContext, SidebarContextProvider, ThemeProvider } from '@component-controls/components';
+import { ThemeProvider, Sidebar, SidebarContext, SidebarContextProvider } from '@component-controls/components';
 
 export default {
   title: 'component-controls/Sidebar',
   component: Sidebar,
+  category: 'Navigation',
 } as Document;
 
-export const overview: Example<{ collapsible: boolean }> = ({ collapsible }) => (
+export const overview: Example<{
+  collapsible: boolean;
+}> = ({ collapsible }) => (
   <ThemeProvider>
     <SidebarContextProvider collapsible={collapsible}>
       <SidebarContext.Consumer>

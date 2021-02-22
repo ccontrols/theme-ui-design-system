@@ -6,6 +6,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/AspectRatio',
   component: AspectRatio,
+ category: 'Containers',
 } as Document;
 
 export const overview: Example<AspectRatioProps> = ({ ratio }) => (

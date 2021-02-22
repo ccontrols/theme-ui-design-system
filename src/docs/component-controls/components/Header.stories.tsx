@@ -5,6 +5,7 @@ import { Header } from '@component-controls/components';
 export default {
   title: 'component-controls/Header',
   component: Header,
+  category: 'Display',
 } as Document;
 
 export const overview: Example = () => <Header>header</Header>;

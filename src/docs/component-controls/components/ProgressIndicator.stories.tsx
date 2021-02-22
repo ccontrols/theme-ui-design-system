@@ -5,6 +5,7 @@ import { ProgressIndicator, ProgressIndicatorProps } from '@component-controls/c
 export default {
   title: 'component-controls/ProgressIndicator',
   component: ProgressIndicator,
+  category: 'Display',
 } as Document;
 
 export const overview: Example<ProgressIndicatorProps> = ({
@@ -12,7 +13,11 @@ export const overview: Example<ProgressIndicatorProps> = ({
   value,
   color,
 }) => {
-  return <ProgressIndicator max={max} value={value} color={color} />;
+  return (
+    <div style={{ width: '100%' }}>
+      <ProgressIndicator max={max} value={value} color={color} />
+    </div>
+  );
 };
 
 overview.controls = {

@@ -8,6 +8,7 @@ export default {
   component: Avatar,
   description:
     'Avatar style variants can be defined in the `theme.images` object and uses `theme.images.avatar` by default.',
+  category: 'Display'
 } as Document;
 
 export const overview: Example<AvatarProps> = ({ src, size }) => (

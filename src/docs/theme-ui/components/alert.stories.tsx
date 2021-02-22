@@ -6,6 +6,7 @@ import { Document, Example } from '@component-controls/core';
 export default {
   title: 'theme-ui/Alert',
   component: Alert,
+  category: 'Display'
 } as Document;
 
 export const overview: Example = () => (

@@ -1,18 +1,20 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Box } from 'theme-ui';
 import { Document, Example, ControlTypes } from '@component-controls/core';
 import { ActionBar, ActionBarProps, ThemeProvider, ExternalLink } from '@component-controls/components';
 
 export default {
-  title: 'component-controls/ActionBar',
+  title: 'Components/ActionBar',
   component: ActionBar,
+  category: 'Navigation',
 } as Document;
 
-const Container: React.FC = ({ children }) => (
+const Container: FC = ({ children }) => (
   <ThemeProvider>
     <Box
       style={{
         height: 100,
+        width: '100%',
         backgroundColor: 'rgb(250, 248, 245)',
       }}
     >

@@ -5,6 +5,7 @@ import { Value, ValueProps } from '@component-controls/components';
 export default {
   title: 'component-controls/Value',
   component: Value,
+  category: 'Display',
 } as Document;
 
 export const overview: Example<ValueProps> = ({ label, value }) => {

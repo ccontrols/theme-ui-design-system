@@ -6,6 +6,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Image',
   component: Image,
+  category: 'Media',
 } as Document;
 
 export const overview: Example<ImageProps> = ({ src }) => <Image src={src} />;

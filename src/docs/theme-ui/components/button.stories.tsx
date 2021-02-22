@@ -7,6 +7,7 @@ export default {
   component: Button,
   description:
     'Button variants can be defined in the theme.buttons object. The Button component uses theme.buttons.primary as its default variant style.',
+  category: 'Input',
 } as Document;
 
 export const overview: Example<ButtonProps> = ({ variant }) => (

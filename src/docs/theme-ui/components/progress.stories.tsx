@@ -7,6 +7,7 @@ export default {
   title: 'theme-ui/Progress',
   component: Progress,
   description: 'Progress variants can be defined anywhere in the `theme` object.',
+  category: 'Input',
 } as Document;
 
 export const overview: Example<ProgressProps> = ({ value }) => <Progress value={value} max={100} />;

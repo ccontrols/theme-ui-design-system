@@ -5,6 +5,7 @@ const { defaultBuildConfig } = require('@component-controls/core');
 
 module.exports = {
   stories: [
+    '../src/docs/*.mdx',
     '../src/docs/theme-ui/docs/*.mdx',
     '../src/docs/theme-ui/components/*.tsx',
     '../src/docs/component-controls/docs/*.mdx',
@@ -20,6 +21,9 @@ module.exports = {
         themes: require.resolve('./ThemesPage.tsx'),
       },
     },
+  },
+  tokens: {
+    githubAccessToken: '96daf53e25c045cbf329b74cfde5bd3c7f8b42cf',
   },
   instrument: {
     components: {

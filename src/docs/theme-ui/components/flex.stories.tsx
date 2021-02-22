@@ -8,6 +8,7 @@ export default {
   component: Flex,
   description:
     'The Flex component is identical to the Box component, but with display: flex set. If you need to alter the display property, use the Box component instead.',
+  category: 'Containers',      
 } as Document;
 
 export const overview: Example<ThemeUICSSProperties> = ({ flexDirection, p }) => (

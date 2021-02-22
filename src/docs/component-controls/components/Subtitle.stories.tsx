@@ -5,6 +5,7 @@ import { Subtitle, SubtitleProps } from '@component-controls/components';
 export default {
   title: 'component-controls/Subtitle',
   component: Subtitle,
+  category: 'Typography',
 } as Document;
 
 export const overview: Example<SubtitleProps> = ({ children }) => {

@@ -6,6 +6,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Slider',
   component: Slider,
+  category: 'Input',
 } as Document;
 
 export const overview: Example<SliderProps> = ({ defaultValue }) => <Slider defaultValue={defaultValue} />;

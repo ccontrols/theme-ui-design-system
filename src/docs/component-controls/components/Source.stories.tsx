@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { PrismTheme } from 'prism-react-renderer';
 import dracula from 'prism-react-renderer/themes/dracula';
 import duotoneDark from 'prism-react-renderer/themes/duotoneDark';
@@ -15,6 +15,7 @@ import { Source, SourceProps, ActionItem } from '@component-controls/components'
 export default {
   title: 'component-controls/Source',
   component: Source,
+  category: 'Display',
 } as Document;
 
 const source = `export const sample = () => {
@@ -27,7 +28,11 @@ const source = `export const sample = () => {
     />
   );
 };`;
-export const overview: Example<SourceProps> = ({ language, children, dark }) => {
+export const overview: Example<SourceProps> = ({
+  language,
+  children,
+  dark,
+}) => {
   return (
     <Source language={language} dark={dark}>
       {children}
@@ -72,7 +77,7 @@ const languages: string[] = [
 
 overview.controls = {
   language: { type: ControlTypes.OPTIONS, options: languages, value: 'jsx' },
-  dark: false,
+  dark: { type: ControlTypes.BOOLEAN },
   children: {
     type: ControlTypes.TEXT,
     rows: 10,
@@ -81,23 +86,25 @@ overview.controls = {
   },
 };
 
-export const theme: Example = () => <Source theme={shadesOfPurple as SourceProps['theme']}>{source}</Source>;
+export const theme: Example = () => (
+  <Source theme={shadesOfPurple}>{source}</Source>
+);
 
 const themes: {
   [key: string]: PrismTheme;
 } = {
-  dracula: dracula as SourceProps['theme'],
-  duotoneDark: duotoneDark as SourceProps['theme'],
-  duotoneLight: duotoneLight as SourceProps['theme'],
-  github: github as SourceProps['theme'],
-  nightOwl: nightOwl as SourceProps['theme'],
-  nightOwlLight: nightOwlLight as SourceProps['theme'],
-  oceanicNext: oceanicNext as SourceProps['theme'],
-  palenight: palenight as SourceProps['theme'],
-  shadesOfPurple: shadesOfPurple as SourceProps['theme'],
+  dracula,
+  duotoneDark,
+  duotoneLight,
+  github,
+  nightOwl,
+  nightOwlLight,
+  oceanicNext,
+  palenight,
+  shadesOfPurple,
 };
-export const themeSelector = () => {
-  const [theme, setTheme] = React.useState('dracula');
+export const themeSelector: Example = () => {
+  const [theme, setTheme] = useState('dracula');
   const themeAction: ActionItem = {
     node: theme,
     onClick: () => {

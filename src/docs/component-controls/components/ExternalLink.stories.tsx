@@ -5,15 +5,17 @@ import { ExternalLink, ExternalLinkProps } from '@component-controls/components'
 export default {
   title: 'component-controls/ExternalLink',
   component: ExternalLink,
+  category: 'Navigation',
 } as Document;
 
-export const overview: Example<ExternalLinkProps> = ({ href }) => {
+export const overview: Example = ({ href }: ExternalLinkProps) => {
   return <ExternalLink href={href}>{href}</ExternalLink>;
 };
 
 overview.smartControls = {
   smart: false,
 };
+
 overview.controls = {
   href: {
     type: ControlTypes.TEXT,

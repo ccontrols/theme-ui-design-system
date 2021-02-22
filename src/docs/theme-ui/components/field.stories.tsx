@@ -7,6 +7,7 @@ export default {
   component: Field,
   description:
     'The `Field` component uses the same variants as the other [form components](/forms) that it is composed of.',
+    category: 'Input',  
 } as Document;
 
 export const overview: Example<FieldProps<'input'>> = ({ label, name, defaultValue }) => (

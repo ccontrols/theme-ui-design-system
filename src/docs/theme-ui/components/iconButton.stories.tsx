@@ -5,6 +5,7 @@ import { Document, Example } from '@component-controls/core';
 export default {
   title: 'theme-ui/IconButton',
   component: IconButton,
+  category: 'Input',
 } as Document;
 
 export const overview: Example = () => (

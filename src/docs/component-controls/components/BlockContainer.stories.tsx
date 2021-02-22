@@ -6,9 +6,10 @@ import { BlockContainer, BlockContainerProps, ThemeProvider } from '@component-c
 export default {
   title: 'component-controls/BlockContainer',
   component: BlockContainer,
+  category: 'Containers',
 } as Document;
 
-export const overview: Example<BlockContainerProps> = ({ title }) => {
+export const overview: Example = ({ title }: BlockContainerProps) => {
   return (
     <BlockContainer title={title}>
       <Donut value={1 / 2} />

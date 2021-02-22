@@ -6,12 +6,14 @@ import { SyntaxHighlighter, SyntaxHighlighterProps } from '@component-controls/c
 export default {
   title: 'component-controls/SyntaxHighlighter',
   component: SyntaxHighlighter,
+  category: 'Display',
 } as Document;
 
 const source = `import { Button } from 'theme-ui';`;
-export const overview: Example<SyntaxHighlighterProps> = ({ children, dark }) => {
-  return <SyntaxHighlighter dark={dark}>{children}</SyntaxHighlighter>;
-};
+export const overview: Example<SyntaxHighlighterProps> = ({
+  children,
+  dark,
+}) => <SyntaxHighlighter dark={dark}>{children}</SyntaxHighlighter>;
 
 overview.controls = {
   children: {
@@ -20,9 +22,9 @@ overview.controls = {
     value: source,
     data: null,
   },
-  dark: false,
+  dark: { type: ControlTypes.BOOLEAN },
 };
 
 export const theme: Example = () => (
-  <SyntaxHighlighter theme={shadesOfPurple as SyntaxHighlighterProps['theme']}>{source}</SyntaxHighlighter>
+  <SyntaxHighlighter theme={shadesOfPurple}>{source}</SyntaxHighlighter>
 );

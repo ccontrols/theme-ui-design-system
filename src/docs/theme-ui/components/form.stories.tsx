@@ -7,7 +7,7 @@ export default {
   title: 'theme-ui/Form',
   description: `**Tip**: Each form field needs to include a \`<label>\` element with an \`htmlFor\` prop that matches its field. The entire form should be wrapped in a \`<form>\` element.
 
-  Add styles for form elements in the \`theme.forms\` object.`
+  Add styles for form elements in the \`theme.forms\` object.`,
 } as Document;
 
 export const overview: Example = () => (

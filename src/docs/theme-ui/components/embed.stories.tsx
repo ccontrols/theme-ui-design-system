@@ -5,6 +5,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Embed',
   component: Embed,
+  category: 'Media',
 } as Document;
 
 export const overview: Example<EmbedProps> = ({ src }) => (

@@ -11,7 +11,8 @@ export default {
   Pass any overrides or additional attributes for the SVG element as props.
   
   Spinner variants can be defined anywhere in the \`theme\` object.
-  `
+  `,
+  category: 'Display',
 } as Document;
 
 export const overview: Example<SpinnerProps> = ({ size, strokeWidth }) => <Spinner size={size} strokeWidth={strokeWidth} />;

@@ -5,7 +5,8 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Text',
   component: Text,
-  description: 'The Text component uses `theme.text.default` as its default variant style.'
+  description: 'The Text component uses `theme.text.default` as its default variant style.',
+  category: 'Input',
 } as Document;
 
 export const overview: Example<ThemeUICSSProperties> = ({ fontWeight, fontSize }) => (

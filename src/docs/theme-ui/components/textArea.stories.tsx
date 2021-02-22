@@ -5,6 +5,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 export default {
   title: 'theme-ui/Textarea',
   component: Textarea,
+  category: 'Input',
 } as Document;
 
 export const overview: Example<TextareaProps> = ({ rows }) => (
