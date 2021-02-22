@@ -1,4 +1,5 @@
 const path = require('path');
+require('dotenv').config();
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin;
 const { defaultBuildConfig } = require('@component-controls/core');
@@ -23,7 +24,7 @@ module.exports = {
     },
   },
   tokens: {
-    githubAccessToken: '96daf53e25c045cbf329b74cfde5bd3c7f8b42cf',
+    githubAccessToken: process.env.GITHUB_AUTH_TOKEN,
   },
   instrument: {
     components: {
