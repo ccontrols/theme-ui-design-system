@@ -4,7 +4,7 @@ import { Document, Example, ControlTypes } from '@component-controls/core';
 import { ActionBar, ActionBarProps, ThemeProvider, ExternalLink } from '@component-controls/components';
 
 export default {
-  title: 'Components/ActionBar',
+  title: 'component-controls/ActionBar',
   component: ActionBar,
   category: 'Navigation',
 } as Document;
