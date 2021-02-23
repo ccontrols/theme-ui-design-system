@@ -13,5 +13,5 @@ export const overview: Example<TagProps> = ({ color }) => {
 };
 
 overview.controls = {
-  color: { type: ControlTypes.COLOR, value: 'red' },
+  color: { type: ControlTypes.COLOR, value: 'primary' },
 };
