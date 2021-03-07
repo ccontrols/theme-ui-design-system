@@ -1,3 +1,8 @@
 const withStories = require('@component-controls/nextjs-plugin/build');
 
-module.exports = withStories({ configPath: '.config'});
+module.exports = withStories({
+  future: {
+    webpack5: true,
+  },
+  configPath: '.config',
+});
