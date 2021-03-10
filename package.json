@@ -16,11 +16,11 @@
     "url": "https://github.com/atanasster/theme-ui-design-system.git"
   },
   "dependencies": {
-    "@component-controls/addon-catalog": "^3.2.0",
-    "@component-controls/addon-stats": "^3.2.0",
-    "@component-controls/design-tokens": "^3.2.0",
-    "@component-controls/gatsby-theme-stories": "^3.2.0",
-    "@component-controls/nextjs-plugin": "^3.2.0",
+    "@component-controls/addon-catalog": "^3.3.0",
+    "@component-controls/addon-stats": "^3.3.0",
+    "@component-controls/design-tokens": "^3.3.0",
+    "@component-controls/gatsby-theme-stories": "^3.3.0",
+    "@component-controls/nextjs-plugin": "^3.3.0",
     "@theme-ui/presets": "0.6.0-alpha.1",
     "gatsby": "^3.0.3",
     "next": "^10.0.8",
